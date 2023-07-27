@@ -1,0 +1,36 @@
+.padre{
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+}
+    .nav{
+        background-color: black;
+        padding: 12px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+       
+    }
+        .nav a{
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.849);
+        }
+    
+    .h1{
+      margin: 10vh;
+    }
+
+    .imagentexto{
+        display: flex;
+    }
+    
+        .texto p{
+            margin-left: 10vh;
+            width: 75%;
+        }
+
+        .imagen{
+            width: 85%;
+            align-self: flex-start;
+            margin-top: -6%;
+        }

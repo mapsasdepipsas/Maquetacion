@@ -1,0 +1,31 @@
+.padre{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial;
+}
+    .nav{
+        background-color: black;
+        padding: 12px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        margin-left: 0.35%;
+        margin-right: 0.35%;
+        
+    }
+        .nav a{
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.849);
+        }
+
+    .galeria{
+        height: 90%;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+    }
+        .imagen{
+            width: 33.1%;
+        }
