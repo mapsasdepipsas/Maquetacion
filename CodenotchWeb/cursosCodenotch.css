@@ -1,0 +1,153 @@
+.padre{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .nav{
+        background-color: whitesmoke;
+        padding: 6vh;
+        display: flex;
+        justify-content: end;
+        align-items:end;
+    }   
+
+        .nav img{
+            width: 25vh;
+            height: 8vh;
+            margin-right: 125vh;
+            object-fit: contain;  
+        }
+
+        .nav a{
+            text-decoration: none;
+            color: black;
+            margin: 10px;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            letter-spacing: 0px;
+            font-style: normal;
+        }
+
+    .imagencabecera{
+        display: flex;
+        justify-content: center;
+        height: 53.8vh;
+    }
+
+    .h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        margin-top: 10vh;
+        color: black;
+        background-color: white;
+        margin-bottom: 5vh;
+        margin-left: 3vh;
+    }
+
+    .cursos{
+        display: flex;
+        justify-content: space-around;
+    }
+
+        .curso1{
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+            .curso1_1{
+                margin-left: 5vh;
+                font-weight: bold;
+            }
+
+            .curso1_2{
+                margin-left: 5vh;
+                
+            }
+        
+            .curso1 img{
+                width: 50vh;
+                margin-left: 5vh;
+            }
+
+
+        .curso2{
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+            .curso2_1{
+                margin-left: 5vh;
+                font-weight: bold;
+            }
+
+            .curso2_2{
+                margin-left: 5vh;
+            }
+    
+            .curso2 img{
+                width: 50vh;
+                margin-left: 5vh;
+            }
+
+        
+        .curso3{
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+            .curso3_1{
+                margin-left: 5vh;
+                font-weight: bold;
+            }
+
+            .curso3_2{
+                margin-left: 5vh;
+            }
+        
+            .curso3 img{
+            width: 50vh;
+            margin-left: 5vh;
+        }
+
+
+    .elfooter{
+        margin-top: 20vh;
+        width: 100%;
+        margin-left: -10vh;
+    }
+    
+            .footer{
+            display: flex;
+            flex-direction: row;
+            text-decoration: none;
+            justify-content: space-around;
+        }
+            .redes{
+                font-family: Arial;
+                margin: 10vh;
+                color: black;
+            }
+
+                .redes p{
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+
+                .redes a{
+                    text-decoration: none;
+                    color: black;
+                    margin: 4vh;
+                }
+
+                .redes img{
+                    width: 5vh;
+                    border-radius: 10%;
+                }
