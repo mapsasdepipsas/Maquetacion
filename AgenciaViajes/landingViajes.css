@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+.padre{
+    display: flex;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    background-image: url(backgroundimage.jpg);
+    background-size: cover;
+    background-attachment: fixed
+}
+
+  .h1{
+    background-color: rgba(253, 198, 114, 0.884);
+    padding: 5vh;
+    padding-bottom: 3vh;
+    font-size: 8vh;
+  }
+
+  .descripcion{
+    
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.863);
+    color: white;
+  }
+
+  .tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 6vh;
+    margin-right: 6vh;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    background-color: rgba(255, 235, 205, 0.877);
+    max-width: 2000px;
+  }
+
+    .tarjetas h3{
+      font-size: 4vh;
+    }
+
+    .tarjetas h4{
+      font-size: 3vh;
+    }
+
+    .tarjetas img{
+     margin-right: 3vh;
+     max-width: 100%;
+    }
+
+      .tarjeta1 img{
+        width: 45vh;
+        height: 25.5vh;
+      }
+
+      .tarjeta1 p{
+        width: 300px;
+      }
+
+      .tarjeta2 p{
+        width: 300px;
+      }
+
+      .tarjeta3 p{
+        width: 270px;
+      }
+
+      .tarjeta4 p{
+        width: 270px;
+      }
+
+      .tarjeta1 img{
+        width: 250px;
+        height: 25.5vh;
+      }
+      
+      .tarjeta2 img{
+        width: 250px;
+        height: 25.5vh;
+      }
+
+      .tarjeta3 img{
+        width: 250px;
+        height: 25.5vh
+      }
+
+      .tarjeta4 img{
+        width: 250px;
+        height: 25.5vh
+      }
+
+
+
+  .formulario{
+    max-width: 600px;
+    margin: 0 auto; /*asi el formulario esta en el centro*/
+    margin-top: 90px;
+    padding: 100px;
+    background-color: #f9f9f9d2;
+  }
+
+    .formulario p{
+      margin-bottom: 5vh;
+      font-size: 5vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .formulario label,
+    .formulario input {
+      margin-bottom: 3px;
+      margin-right: 10px;
+      display: flex;
+      flex-direction: column; /*asi cada input y label estan 1 debajo del otro*/
+    }
+
+    .buttons{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;  
+  }
+
+    .botoninfo{
+      background-color: #af904c;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin-bottom: 5px;
+    }
+
+    .botonfiltrar {
+      background-color: #af904c;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin-bottom: 5px;
+    }
+
+  .funcion{
+    background-color: rgba(240, 248, 255, 0.856);
+    margin-top: 8vh;
+    padding-top: 5vh;
+  }
