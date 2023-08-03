@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelMania</title>
+    <link rel="stylesheet" href="landingViajes.css">
+</head>
+<body>
+    <script src="landingViajes.js"></script>
+
+<main class="padre">
+    <div>
+        <h1 class="h1">TravelMania</h1>
+    </div>
+    <div class="descripcion">
+        <h2>¿Preparado para descubrir el mundo?</h2>
+        <p>En TravelMania creemos que sin viajes no hay vida, por eso te ayudamos a que encuentres el destino perfecto para tus vacaciones y puedas explorar esos sitios a los que siempre has deseado ir.</p>
+    </div>
+
+    <div class="tarjetas">
+
+        <div class="tarjeta1">
+            <h3>Lugar más visitado</h3>
+            <img src="roma.jpg" alt="">
+            <h4>Roma</h4>
+            <p>Distruta de la vida  y la gastronomía italiana.</p>
+            <p>Precio: a partir de 1000€</p>
+        </div>
+
+        <div class="tarjeta2">
+            <h3>Oferta</h3>
+            <img src="dubai.png" alt="">
+            <h4>Dubai</h4>
+            <p>Recorre las calles de esta maravillosa ciudad.</p>
+            <p>Precio: a partir de 4000€</p>
+        </div>
+
+        <div class="tarjeta3">
+            <h3>Oferta</h3>
+            <img src="tokio.jpg" alt="">
+            <h4>Tokio</h4>
+            <p>Explora la cultura japonesa más moderna y tradicional.</p>
+            <p>Precio: a partir de 6000€</p>
+        </div>
+
+        <div class="tarjeta4">
+            <h3>Oferta</h3>
+            <img src="maui.jpg" alt="">
+            <h4>Maui</h4>
+            <p>Sumérgete en las playas paradisiacas de esta maravillosa isla.</p>
+            <p>Precio: a partir de 7000€</p>
+        </div>
+    </div>
+
+    <div class="formulario">
+       <p>¿Quieres saber más?</p> 
+
+        <form>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" required>
+
+            <label for="origen">Origen</label>
+            <input type="text" name="origen" id="origen" required>
+
+            <label for="destino">Destino</label>
+            <input type="text" name="destino" id="destino" required>
+
+            <label for="personas">Personas</label>
+            <input type="number" name="personas" id="personas" required>
+
+            <label for="fecha">Fecha</label>
+            <input type="text" name="fecha" id="fecha" pattern="\d{2}/\d{2}/\d{4}" placeholder="dd/mm/yyyy" required>
+
+            <div class="buttons">
+                <button type="submit" class="botoninfo" onclick="recogerinfo()">Solicitar información</button>
+                <button type="submit" class="botonfiltrar" onclick="filtrardestino()">Filtrar</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="funcion" id="datos"></div>
+</main>
+
+</body>
+</html>
