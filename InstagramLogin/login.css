@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+.padre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+    .fotoizq{
+        align-self: center; 
+        margin-right: -25vh; 
+    }
+        .fotoizq img{
+        width: 60%;
+        height: 60%;
+        
+        }
+
+    .contenedor1{
+        border: 1px solid rgba(184, 183, 183, 0.829);
+        width: 50vh;
+        margin-bottom: -4vh;
+    }
+
+    .login{
+        display: flex;
+        align-self: center;
+        flex-direction: column;
+        width: 50vh;
+        margin-left: -25vh;
+    }
+
+        .login h2{
+            display: flex;
+            justify-content: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 100;
+            font-size: 5vh;
+            margin-bottom: 10vh;
+            margin-top: 8vh;
+        }
+
+        .formulario{
+            display: flex;
+            flex-direction: column;
+        }
+
+            .formulario input{
+                margin-bottom: 1vh;
+                text-align: left;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                align-self: center;
+                width: 40vh;
+                height: 5vh;
+            }
+
+                .formulario input::placeholder {
+                    color: rgba(128, 128, 128, 0.849);
+                }
+        
+
+            .boton{
+                background-color: rgb(73, 211, 211);
+                color: white;
+                border: none;
+                border-radius: 8%;
+                height: 5vh;
+                font-weight: bold;
+                align-self: center;
+                width: 40vh;
+                margin-top: 2vh;
+            }
+
+        .facebookycontr{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+            .facebookycontr p{
+                margin-top: 2vh;
+                margin-bottom: 5vh;
+                color: grey;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .facebook{
+                margin-bottom: 3vh;
+            }
+            
+                .facebook a{
+                    text-decoration: none;
+                    color: rgb(9, 9, 119);
+                    font-family: helvetica;
+                    font-size: 2.5vh;
+                    font-weight: bold;
+                }
+
+                .facebook img{
+                    width: 2.5vh;
+                }
+
+            .contr{
+                margin-bottom: 4vh;
+            }
+            
+                .contr a{
+                color: rgb(9, 9, 119);
+                font-size: 2vh;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 4vh;
+                text-decoration: none;
+                }
+
+        .contenedor2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2.25vh;
+            display: flex;
+            justify-content: center;
+            margin-top: 6vh;
+            border: 1px solid rgba(184, 183, 183, 0.829);
+            width: 50vh;
+        }
+
+            .contenedor2 p{
+                margin-left: 2vh;
+                display: flex;
+                margin-top: 3vh;
+                margin-bottom: 3vh;
+            }
+
+            .contenedor2 a{
+                margin-left: 2vh;
+                display: flex;
+                margin-top: 3vh;
+                margin-bottom: 3vh;
+                text-decoration: none;
+                color: rgb(73, 211, 211);
+                font-weight: bold;
+            }
+
+    .descargapp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+        .descargapp p{
+            align-self: center;
+            margin-top: 4vh;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2.2vh;
+        }
+
+        .descargapp img{
+            width: 20vh;
+            align-self: center;
+            margin-top: 3vh;
+        }
+
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 3vh;
+        margin-left: 15vh;
+        margin-right: 15vh;
+        flex-wrap: wrap;
+        margin-bottom: 5vh;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        footer a{
+            text-decoration: none;
+            color: rgb(63, 62, 62);
+            margin-right: 3vh;
+            margin-top: 3vh;
+            font-size: 2vh;
+        }
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 875px){
+    .fotoizq{
+        display: none;
+    }
+
+    .login{
+        margin: 0vh;
+    }
+}
