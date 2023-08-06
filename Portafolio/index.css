@@ -1,0 +1,265 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+html {
+  scroll-behavior: smooth;
+}
+
+  .padre{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif
+  }
+
+    .nav{
+      background-color: #005346;
+      display: flex;
+      justify-content: center;
+    }
+
+      .navlink{
+        text-decoration: none;
+        margin: 5vh;
+        color: aliceblue;
+        font-size: 3vh;
+      /*añadir que MIENTRAS cliques cambie de color*/
+      }
+
+      .navlink:hover{
+        color: black;
+        transition: color 0.5s 1ms;
+      }
+
+      .navlink:active{
+        text-decoration: underline;
+      }
+
+
+    .presentacion{
+      margin-top: 5vh;
+      margin-bottom: 5vh;
+      margin-left: 5vh;
+    }
+
+      .presentacion h2{
+        color: #00807a;
+        font-size: 5vh;
+      }
+
+      .presentacion p{
+        margin-right: 30vh;
+        font-size: 3vh;
+        margin-top: 2vh;
+      }
+    
+    .descripcion h2{
+      background-color: #008d8c;
+      padding-top: 3vh;
+      padding-bottom: 3vh;
+      display: flex;
+      justify-content: center;
+      color: aliceblue;
+      font-size: 4vh;
+    }
+      .descripcion h2:hover{
+        background-color: white;
+        --myColorVar2: #008d8c;
+        color: var(--myColorVar2);
+        transition: color 2s 50ms;
+      }
+
+      .descripcion p{
+        margin-left: 5vh;
+        margin-right: 5vh;
+        font-size: 3vh;
+        margin-top: 2vh;
+      }
+
+    .tecnologias{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .tecnologias h2{
+      background-color: #1c9997;
+      font-size: 5vh;
+      margin-top: 8vh;
+      font-size: 4vh;
+      padding: 5vh;
+      color: aliceblue;
+    }
+
+      .frontbackend{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        max-width: 100%;
+        background-color: #1c9997;
+        padding-bottom: 5vh;
+      }
+
+        .frontbackend h3{
+          margin-bottom: 3vh;
+        }
+
+        .frontbackend img{
+          height: 100%;
+          width: 2.70vh;
+          border-radius: 1.2vh;
+          margin-right: 1vh;
+          transition: transform 0.2s ease;
+        }
+
+        .frontbackend img:hover{
+          /*transform: scale(1.5);*/
+          transform: translateY(-5px);
+        }
+
+          .frontbackend p{
+            display: flex;
+            flex-direction: row;
+            font-weight: 8vh;
+            margin-top: 1vh;
+          }
+
+    .misproyectos h2 {
+      color: black;
+      text-align: center;
+      margin-top: 8vh;
+      margin-bottom: 5vh;
+      font-size: 4vh;
+    }
+    
+    .proydescrip {
+      background-color: #7ab4ad;
+      text-align: center;
+      padding: 20px;
+    }
+    
+      .proydescrip img {
+        width: 70vh;
+        margin-top: 10vh;
+        transition: box-shadow 0.3s;
+      }
+      
+      .proydescrip img:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+      }
+    
+      .proydescrip p {
+        margin: 5vh auto;
+        max-width: 80%;
+        font-weight: 700;
+      }
+
+    .formulario{
+      max-width: 600px;
+      margin: 0 auto; /*asi el formulario esta en el centro*/
+      margin-top: 90px;
+      padding: 100px;
+      background-color: #a0c8c3;
+      border-radius: 5vh;
+    }
+
+      .formulario h3{
+        margin-bottom: 5vh;
+      }
+  
+      .formulario p{
+        margin-bottom: 5vh;
+        font-size: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+  
+      .formulario label,
+      .formulario input {
+        margin-bottom: 3px;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column; /*asi cada input y label estan 1 debajo del otro*/
+      }
+
+      .formulario input::placeholder,
+      .formulario textarea::placeholder {
+        color: grey;
+        font-style: italic;
+      }
+
+      .button{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+      }
+    
+        .botoninfo{
+          background-color: #af904c;
+          color: white;
+          padding: 1vh;
+          border: none;
+          cursor: pointer;
+          margin-bottom: 5px;
+        }
+
+          .botoninfo:hover{
+            background-color: #88703d;
+            transition: 1s 0.5ms;
+          }
+
+          .botoninfo:active{
+            background-color: grey;
+            transition: 1s, 0.5ms;
+          }
+
+    footer {
+      text-align: center;
+      background-color: #bfdac7;
+      padding: 5vh;
+      margin-top: 5vh;
+      border-radius: 1vh;
+    }
+    
+    .footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+      .footer h3 {
+        margin-bottom: 10px;
+      }
+    
+    .links {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+  
+    }
+    
+      .footer a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: #333;
+        width: 200px;
+        margin-right: 5vh;
+      }
+
+        .footer a:hover{
+          text-decoration: underline;
+        }
+
+        .footer a:active{
+          color: aliceblue;
+        }
+      
+      .footer img {
+        width: 2vh;
+      }
