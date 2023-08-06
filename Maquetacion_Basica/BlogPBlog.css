@@ -1,3 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
 .padre{
     font-family: Arial;
     display: flex;
@@ -22,19 +28,26 @@
 
     .imagentexto{
         display: flex;
-      
     }
 
         .imagen{
             width: 90%;
             align-self: flex-start;
-            margin-left: 10vh;
+            margin-left: 12vh;
+            margin-right: 5vh;
             margin-top: 3vh;
         }
 
         .texto{
             text-align: center; 
             margin-right: 12vh;
+            margin-left: 5vh;
             width: 75%;
             align-self: center;
+            margin-top: 10vh;
+            margin-bottom: 5vh;
         }
+
+            .texto p{
+                margin-bottom: 2vh;
+            }
