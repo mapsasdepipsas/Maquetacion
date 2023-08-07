@@ -1,0 +1,84 @@
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 2fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+    height: 100vh;
+}
+
+    .a{
+        background-color: greenyellow;
+        display: flex;
+        justify-content: center;
+    }
+
+    .b{
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .c{
+        background-color: greenyellow;
+        display: flex;
+        justify-content: center;
+    }
+
+    .a2{
+        background-color: greenyellow;
+        display: flex;
+        justify-content: center;
+    }
+
+    .b2{
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .c2{
+        background-color: greenyellow;
+        display: flex;
+        justify-content: center;
+    }
+
+    .d{
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .e{
+        background-color: greenyellow;
+        display: flex;
+        justify-content: center;
+    }
+
+    .f{
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .d2{
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .e2{
+        background-color: greenyellow;
+        display: flex;
+        justify-content: center;
+    }
+
+    .f2{
+        background-color: black;
+        color: white;  
+        display: flex;
+        justify-content: center;
+    }

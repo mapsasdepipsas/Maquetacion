@@ -1,0 +1,85 @@
+.grid{
+    display: grid;
+    height: 100vh;
+    grid-template-areas:"header header imagen"
+                        "aside contenido contenido"
+                        "aside contenido contenido"
+                        "aside contenido contenido"
+                        "footer footer footer";                 
+}
+
+    .header{
+        grid-area: header;
+        background-color: rgb(202, 26, 26);
+        text-align: center;
+        color: white;
+        padding: 25px;
+    }
+
+    .imagen{
+        grid-area: imagen;
+        background-color: rgb(124, 29, 29);
+        text-align: center;
+        color: white;
+        padding: 25px;
+    }
+
+    .izquierda{
+        display: grid;
+        grid-area: aside;
+        background-color: rgb(224, 81, 24);
+        padding: 12px;
+        gap: 30px;
+        grid-template-areas: 
+        "aside1"
+        "aside2"
+        "aside3";
+    }
+
+        .izquierda1{
+            grid-area: aside1;
+            color: red;
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .izquierda3{
+            grid-area: aside3;
+            color: red;
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+    .derecha{
+        display: grid;
+        grid-area: contenido;
+        background-color: orangered;
+        color: white;
+        gap: 10px;
+        padding: 14px;
+        grid-template-areas: 
+        "contenido"
+        "texto";
+    }
+
+        .contenido{
+            padding: 5px;
+            text-align: center;
+            border: 2px solid white;
+        }
+
+        .texto{
+            padding: 5px;
+            text-align: center;
+            border: 2px solid white;
+        }
+
+    .footer{
+        grid-area: footer;
+        color: white;
+        background-color: rgb(124, 29, 29);
+        text-align: center;
+        padding: 10px;
+    }

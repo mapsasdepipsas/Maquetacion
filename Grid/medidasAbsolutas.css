@@ -1,0 +1,44 @@
+.grid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 500px 200px 500px;
+    grid-template-rows: 300px 300px;
+    color: white;
+    height: 100vh;
+}
+
+    .a{
+        background-color: greenyellow;
+        display: flex;
+        justify-content: center;
+    }
+
+    .b{
+        background-color: orange;
+        display: flex;
+        justify-content: center;
+    }
+
+    .c{
+        background-color: orangered;
+        display: flex;
+        justify-content: center;
+    }
+
+    .d{
+        background-color: red;
+        display: flex;
+        justify-content: center;
+    }
+
+    .e{
+        background-color: blue;
+        display: flex;
+        justify-content: center;
+    }
+
+    .f{
+        background-color: yellow;
+        display: flex;
+        justify-content: center;
+    }

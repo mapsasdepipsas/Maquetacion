@@ -1,0 +1,112 @@
+.grid{
+    display: grid;
+    grid-template-columns: [x0]1fr [x1];
+    grid-template-rows: [y0]1fr [y1]6fr [y2]1fr [y3];
+}
+
+    .header{
+        padding: 15px;
+        text-align: center;
+        background-color: black;
+        color: white;
+        font-size: 4vh;
+    }
+
+    .contenido{
+        display: grid;
+        grid-template-columns: [x0]6fr [x1]2fr [x3];
+    }
+
+        .bloques{
+            display: grid;
+            background-color: rgb(27, 27, 197);
+            color: white;
+            grid-template-columns: [x0]1fr [x1];
+            grid-template-rows: [y0]1fr [y1]4fr [y3];
+            gap: 10px;
+            padding: 10px;
+        }
+
+            .bloque1{
+                font-weight: bold;
+                font-size: 3vh;
+                border: 1px solid white;
+                margin: 13px;
+                padding: 10px;
+                height: 12vh;
+            }
+
+            .bloque2{
+                display: grid;
+                grid-template-columns: [x0]2fr [x1]0.9fr [x2];
+                padding: 13px;
+                gap: 10px;
+            }
+
+                .texto1{
+                    font-size: 2.5vh;
+                    border: 1px solid white;
+                    padding: 10px;
+                }
+
+                .texto2{
+                    font-size: 2.5vh;
+                    border: 1px solid white;
+                    padding: 10px;
+                }
+
+            .menu{
+                display: grid;
+                background-color: aquamarine;
+                color: white;
+                grid-template-columns: [x0]1fr [x1];
+                grid-template-rows: [y0]1fr [y1]1fr [y2]1fr [y3]1fr [y4];
+                gap: 10px;
+                padding: 10px;
+            }
+
+                .menu1{
+                    border: 2px solid black;
+                    text-align: center;
+                    padding: 60px;
+                    font-size: 5vh;
+                }
+
+                .menu2{
+                    background-color: black;
+                    text-align: center;
+                    padding: 60px; 
+                }
+
+                .menu3{
+                    background-color: black;
+                    text-align: center;
+                    padding: 60px; 
+                }
+
+                .menu4{
+                    background-color: black;
+                    text-align: center;
+                    padding: 60px; 
+                }
+
+        .footer{
+            display: grid;
+            grid-template-columns: [x0]1fr [x1]1fr [x2];
+            grid-template-rows: [y0]1fr [y1] ;
+            background-color: blueviolet;
+            gap: 20px;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+            .footer1{
+                border: 2px solid black;
+                padding: 10px; 
+            }
+
+            .contacto{
+                border: 2px solid black;
+                padding: 10px;
+            }
