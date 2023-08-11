@@ -42,6 +42,15 @@ html {
       margin-top: 5vh;
       margin-bottom: 5vh;
       margin-left: 5vh;
+      border: solid 10px rgb(88, 139, 95);
+      border-radius: 5%;
+      padding: 10vh;
+      transition: transform 0.2s ease;
+    }
+
+    .presentacion:hover{
+      /*transform: scale(1.5);*/
+      transform: translateX(-20px);
     }
 
       .presentacion h2{
@@ -71,11 +80,27 @@ html {
         transition: color 2s 50ms;
       }
 
-      .descripcion p{
+      .descripcion2{
         margin-left: 5vh;
         margin-right: 5vh;
         font-size: 3vh;
         margin-top: 2vh;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        margin-left: 5vh;
+        border: solid 10px rgb(76, 126, 146);
+        border-radius: 5%;
+        padding: 10vh;
+      }
+
+      .descripcion2 p{
+        margin-bottom: 2vh;
+        transition: transform 0.2s ease;
+      }
+
+      .descripcion2 p:hover{
+        /*transform: scale(1.5);*/
+        transform: translateX(20px);
       }
 
     .tecnologias{
