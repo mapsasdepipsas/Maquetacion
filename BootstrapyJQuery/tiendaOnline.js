@@ -3,18 +3,13 @@ jQuery(function($) {
     let total = 0;
   
     // evento al botón "añadir al carrito"
-    $(".btn-add-to-cart").on("click", function() {
+    $(".btn-addcarrito").on("click", function() {
       let title = $(this).data("title");
-      let price = parseFloat($(this).data("price"));
+      let price = $(this).data("price");
   
       carrito.push({ title, price });
       total += price;
   
-      updateCarritoModal();
-    });
-  
-    // evento al botón "Mostrar carrito"
-    $(".cart_btn").on("click", function() {
       updateCarritoModal();
     });
   
@@ -37,10 +32,9 @@ jQuery(function($) {
         $carritoContenido.empty();
       
         $.each(carrito, function(index, item) {
-          $("<p>").text(`PRENDA: ${item.title} - ${item.price}€`).appendTo($carritoContenido);
+          $carritoContenido.append($("<p>").text(`PRENDA: ${item.title} - ${item.price}€`));
         });
       
-        $("#suma").text(`Total: ${total.toFixed(2)}€`);
+        $("#suma").text(`TOTAL COMPRA: ${total}€`);
       }      
   });
-  

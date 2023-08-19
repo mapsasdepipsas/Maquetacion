@@ -11,7 +11,10 @@ html {
   .padre{
     display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(blue-color-squares-arrangement2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
   }
 
     .nav{
@@ -25,7 +28,6 @@ html {
         margin: 5vh;
         color: aliceblue;
         font-size: 3vh;
-      /*añadir que MIENTRAS cliques cambie de color*/
       }
 
       .navlink:hover{
@@ -43,7 +45,7 @@ html {
       margin-bottom: 5vh;
       margin-left: 5vh;
       border: solid 10px rgb(88, 139, 95);
-      border-radius: 5%;
+      border-radius: 5vh;
       padding: 10vh;
       transition: transform 0.2s ease;
     }
@@ -65,7 +67,7 @@ html {
       }
     
     .descripcion h2{
-      background-color: #008d8c;
+      background-color: #008d8db4;
       padding-top: 3vh;
       padding-bottom: 3vh;
       display: flex;
@@ -74,7 +76,7 @@ html {
       font-size: 4vh;
     }
       .descripcion h2:hover{
-        background-color: white;
+        background-color: rgba(240, 248, 255, 0.726);
         --myColorVar2: #008d8c;
         color: var(--myColorVar2);
         transition: color 2s 50ms;
@@ -89,7 +91,7 @@ html {
         margin-bottom: 5vh;
         margin-left: 5vh;
         border: solid 10px rgb(76, 126, 146);
-        border-radius: 5%;
+        border-radius: 5vh;
         padding: 10vh;
       }
 
